@@ -21,8 +21,8 @@ describe('the-manage-ctrl', () => {
     db.load(TheUserResource, 'User')
 
     class UserManageCtrl extends TheManageCtrl {
-      static get RESOURCE_NAME () {
-        return User
+      static get resourceName () {
+        return 'User'
       }
     }
     const { User } = db.resources

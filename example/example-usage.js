@@ -8,7 +8,7 @@ async function tryExample () {
 
   server.register(
     class UserManageController extends TheManageCtrl {
-      static get RESOURCE_NAME () {
+      static get resourceName () {
         return 'User'
       }
     },
