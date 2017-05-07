@@ -1,10 +1,9 @@
-# the-controller-manage@1.0.1
+# the-controller-manage@1.0.2
 
 Manage controller for the-server
 
 + Functions
   + [create(args)](#the-controller-manage-function-create)
-  + [mixManage()](#the-controller-manage-function-mix-manage)
 + [`TheManageCtrl`](#the-controller-manage-classes) Class
   + [new TheManageCtrl()](#the-controller-manage-classes-the-manage-ctrl-constructor)
   + [ctrl.list(condition)](#the-controller-manage-classes-the-manage-ctrl-list)
@@ -20,11 +19,6 @@ Create a TheManageCtrl instance
 | Param | Type | Description |
 | ----- | --- | -------- |
 | args | * |  |
-
-<a class='md-heading-link' name="the-controller-manage-function-mix-manage" ></a>
-
-### mixManage()
-
 
 
 

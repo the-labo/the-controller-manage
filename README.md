@@ -82,7 +82,7 @@ async function tryExample () {
 
   server.register(
     class UserManageController extends TheManageCtrl {
-      static get RESOURCE_NAME () {
+      static get resourceName () {
         return 'User'
       }
     },
@@ -106,7 +106,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-controller-manage@1.0.1](./doc/api/api.md)
++ [the-controller-manage@1.0.2](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-controller-manage-function-create)
 
 
