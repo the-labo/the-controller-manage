@@ -61,14 +61,6 @@
         "type": "TheManageCtrl",
         "description": ""
       }
-    },
-    {
-      "name": "mixManage",
-      "access": "",
-      "virtual": false,
-      "description": "",
-      "parameters": [],
-      "examples": []
     }
   ]
 }
