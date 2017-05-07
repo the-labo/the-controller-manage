@@ -1,0 +1,74 @@
+{
+  "classes": [
+    {
+      "name": "TheManageCtrl",
+      "description": "",
+      "extends": [
+        "TheCtrl"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheManageCtrl",
+        "description": "Manage controller for the-server",
+        "parameters": [],
+        "examples": []
+      },
+      "functions": [
+        {
+          "name": "list",
+          "access": "",
+          "virtual": false,
+          "description": "List entities",
+          "parameters": [
+            {
+              "name": "condition",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise",
+            "description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a TheManageCtrl instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "TheManageCtrl",
+        "description": ""
+      }
+    },
+    {
+      "name": "mixManage",
+      "access": "",
+      "virtual": false,
+      "description": "",
+      "parameters": [],
+      "examples": []
+    }
+  ]
+}
