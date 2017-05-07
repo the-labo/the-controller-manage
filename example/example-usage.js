@@ -7,8 +7,12 @@ async function tryExample () {
   let server = theServer({ /* ... */ })
 
   server.register(
-    class extends TheManageCtrl { /* ... */},
-    'some'
+    class UserManageController extends TheManageCtrl {
+      static get RESOURCE_NAME () {
+        return 'User'
+      }
+    },
+    'UserMangeController'
   )
 
   server.listen(3000)
